@@ -74,4 +74,24 @@ export default {
 
 
 
-<style></style>
+<style>
+.days-tab {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.days-tab ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px 25px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  margin: 30px 10px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+  min-width: 200px;
+}
+</style>
